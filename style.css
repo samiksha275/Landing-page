@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(31, 41, 55);
+    margin: 0;
+}
+
+.links div{
+    display: inline-block;
+    margin-right: 10px;
+}
