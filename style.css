@@ -177,10 +177,17 @@ button{
     color: white;
 }
 
-
 .sign-up{
     flex: 1;
     margin: auto;
     border-color: white;
     border-style: solid;
+}
+
+.copyright{
+    color: white;
+    background-color: rgb(47, 61, 82);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
 }
