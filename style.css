@@ -4,10 +4,6 @@
     padding-top: 15px;
 }
 
-.footer{
-    color: blue;
-}
-
 .upper-part{
     display: flex;
     flex-direction: row;
@@ -72,7 +68,7 @@ button{
     font-size: 15px;
 }
 
-.text{
+.placeholder .text{
     background-color: gray;
     height: 250px;
     width: 600px;
@@ -147,4 +143,44 @@ button{
     font-weight: bold;
     font-size: 28px;
     color: rgb(24, 23, 23);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    align-items: center;
+    vertical-align: center;
+    background-color: rgb(56, 130, 246);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+.footer .text{
+    flex: 1;
+}
+
+.line1{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.line2{
+    color: white;
+}
+
+
+.sign-up{
+    flex: 1;
+    margin: auto;
+    border-color: white;
+    border-style: solid;
 }
